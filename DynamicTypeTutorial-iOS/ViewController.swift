@@ -73,6 +73,9 @@ class ViewController: UIViewController {
         
         title3Label.font = UIFont.preferredFont(forTextStyle: .title3)
         title3Label.adjustsFontForContentSizeCategory = true
+        
+        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        button.titleLabel?.adjustsFontForContentSizeCategory = true
     }
     
     // ✅ Called when the iOS interface environment changes.

@@ -83,6 +83,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enP-lr-V3i">
+                                <rect key="frame" x="166.5" y="681" width="81" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -100,6 +105,7 @@
                             <constraint firstItem="RhX-j8-Dzs" firstAttribute="top" secondItem="vGc-Sx-xWU" secondAttribute="bottom" constant="20" id="MMf-py-4Lf"/>
                             <constraint firstItem="dtK-ff-Z3J" firstAttribute="top" secondItem="3t8-ro-Oal" secondAttribute="bottom" constant="20" id="NMY-AN-pjn"/>
                             <constraint firstItem="dtK-ff-Z3J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RcP-8o-mWG"/>
+                            <constraint firstItem="enP-lr-V3i" firstAttribute="top" secondItem="RhX-j8-Dzs" secondAttribute="bottom" constant="20" id="U4z-1o-OqA"/>
                             <constraint firstItem="xwy-8Y-ij5" firstAttribute="top" secondItem="dNX-VG-9Lh" secondAttribute="bottom" constant="20" id="V2r-zg-iSV"/>
                             <constraint firstItem="gyd-OW-tQG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vqa-BH-ZJc"/>
                             <constraint firstItem="dNX-VG-9Lh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wmb-KY-QgU"/>
@@ -109,10 +115,12 @@
                             <constraint firstItem="MZL-wL-1a5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dTI-gA-xSV"/>
                             <constraint firstItem="6On-g5-mXk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jBt-T9-vtr"/>
                             <constraint firstItem="p8R-6P-NEL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kTP-xI-AoI"/>
+                            <constraint firstItem="enP-lr-V3i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wen-7k-7be"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="bodyLabel" destination="MZL-wL-1a5" id="Lqu-Kg-Qgr"/>
+                        <outlet property="button" destination="enP-lr-V3i" id="rZC-Nm-YD8"/>
                         <outlet property="calloutLabel" destination="6On-g5-mXk" id="Ilx-dI-9ka"/>
                         <outlet property="caption1Label" destination="gyd-OW-tQG" id="4cu-rG-hmf"/>
                         <outlet property="caption2Label" destination="3t8-ro-Oal" id="f9s-bw-Gyh"/>
